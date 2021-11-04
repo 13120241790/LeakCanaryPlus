@@ -24,3 +24,16 @@ buildToolsVersion=28.0.3
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.8.1-bin.zip
 ```
 
+
+
+新建一个 libary module 用来编写 Plus 源代码
+
+
+
+
+
+```groovy
+compileOnly 'com.squareup.leakcanary:leakcanary-android:2.3'
+```
+
+compileOnly 只是在编译期依赖，这是为
