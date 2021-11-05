@@ -35,7 +35,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:27.1.1"
 //    implementation project(path: ':wrapper')
-    implementation project(path: ':library')
+//    implementation project(path: ':library')
+    implementation 'com.github.13120241790:LeakCanaryPlus:1.0.0'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.3'
     implementation 'com.squareup.okhttp3:okhttp:3.8.0'
 }

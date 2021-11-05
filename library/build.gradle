@@ -3,7 +3,7 @@ plugins {
     id 'com.github.dcendents.android-maven'
 
 }
-group = "com.github.zhouxuming"
+group = "com.github.13120241790"
 android {
     compileSdkVersion 27
     buildToolsVersion "28.0.3"
